@@ -1,0 +1,10 @@
+name: Cool Actions Workflow
+on: workflow_dispatch
+jobs:
+  print:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print to console
+        run: echo Bottle of water, Catchy songs
+    
+      
